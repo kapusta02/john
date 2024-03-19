@@ -1,0 +1,20 @@
+.container{
+    display: block;
+    width: 955px;
+    margin: 0 auto;
+}
+.messengers-block{
+    display: flex;
+    justify-content: center;
+    width: 982px;
+    margin-top: 136px;
+}
+.messengers-block-image{
+    padding: 0 28px 26px 0;
+}
+.messengers-block-text{
+    display: flex;
+    justify-content: center;
+    color: #21243D;
+    margin-bottom: 52px;
+}

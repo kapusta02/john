@@ -1,0 +1,53 @@
+.acquaintance{
+    display: flex;
+    justify-content: center;
+    margin-top: 162px;
+}
+.acquaintance-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 716px;
+}
+.acquaintance-block-header{
+    display: block;
+    font-size: 44px;
+    font-weight: bold;
+    color: #21243D;
+    line-height: 1.3;
+    width: 462px;
+    margin-bottom: 41px;
+}
+.acquaintance-block-text{
+    display: block;
+    color: #21243D;
+    font-size: 16px;
+    width: 504px;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.acquaintance-block-btn{
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 13px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #FF6464;
+}
+.acquaintance-block-image{
+    margin-top: -17px;
+    position: relative;
+}
+
+.acquaintance-block-image::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 243px;
+    border-radius: 50%;
+    right: 5px;
+    bottom: 40px;
+    background-color: #EDF7FA;
+}

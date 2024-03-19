@@ -1,0 +1,16 @@
+.header-block{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.header-block-list-item{
+    margin: 27px 20px 0 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-block-list-item:hover{
+    text-decoration:underline;
+}
